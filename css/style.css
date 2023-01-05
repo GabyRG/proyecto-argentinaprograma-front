@@ -1,3 +1,10 @@
+/* Nav */
+
+nav{
+    padding: 1em;
+    background-color: #009486;
+}
+
 .nav-p{
     color: #fff;
     font-weight: bold;
@@ -5,4 +12,29 @@
 
 .img-nav{
     color: #fff;
+}
+
+/* Acerca de */
+
+.acercade-nombre{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.acercade-titulo{
+    color: #2f4858;
+}
+
+.acercade-tx{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.acercade-foto{
+    height: 10em;
+    width: 10em;
+}
+
+html{
+    margin: 0;
 }
