@@ -120,3 +120,21 @@ circle:nth-child(2){
 }
 
 /*FIN GRÁFICOS*/
+
+/* Proyectos */
+
+.proyectos-fondo{
+    background-color: #009486;
+}
+
+.proyectos-titulo{
+    color: #000;
+}
+
+.proyectos-subtitulo{
+    color: #fff;
+}
+
+.proyectos-parrafo{
+    color: #fff;
+}
