@@ -138,3 +138,9 @@ circle:nth-child(2){
 .proyectos-parrafo{
     color: #fff;
 }
+
+/* Footer */
+
+footer h5{
+    color: #fff;
+}
