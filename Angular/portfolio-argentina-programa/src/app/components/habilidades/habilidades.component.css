@@ -1,0 +1,55 @@
+/* Habilidades */
+
+.habilidades-fondo{
+    background-color: #5ec262;
+}
+
+.habilidades-titulo{
+    color: #000;
+}
+
+.habilidades-subtitulo{
+    color: #106174;
+}
+
+/* Gráfico círculos habilidades */
+
+circle{
+    fill: none;
+    stroke: #000;
+    stroke-width: 20;
+    stroke-dasharray: 100 100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+}
+  
+circle:nth-child(2){
+    stroke-dasharray: 0 100;
+    stroke: var(--color);
+    animation: rellenar .75s linear forwards;
+}
+  
+.porcentajes{
+    position: relative;
+}
+.porcentajes text{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+  
+@keyframes rellenar{
+    to{
+      stroke-dasharray: var(--porcentaje)100;
+    }
+}
+
+/*FIN GRÁFICOS*/

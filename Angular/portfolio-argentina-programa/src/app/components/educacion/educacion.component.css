@@ -1,0 +1,25 @@
+/* Educación */
+
+.educacion-fondo{
+    background-color: #007b84;
+}
+
+.educacion-titulo{
+    color: #000;
+}
+
+.educacion-uba-img{
+    width: 15rem;
+}
+
+.educacion-codo-img{
+    width: 17rem;
+}
+
+.educacion-lugar{
+    color: #000;
+}
+
+.educacion-carrera{
+    color: #5ec262;
+}

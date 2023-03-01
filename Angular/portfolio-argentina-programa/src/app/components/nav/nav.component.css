@@ -1,0 +1,15 @@
+/* Nav */
+
+nav{
+    padding: 1em;
+    background-color: #009486;
+}
+
+.nav-p{
+    color: #fff;
+    font-weight: bold;
+}
+
+.img-nav{
+    color: #fff;
+}
