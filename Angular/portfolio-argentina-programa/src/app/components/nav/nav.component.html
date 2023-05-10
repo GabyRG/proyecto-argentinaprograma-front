@@ -7,18 +7,11 @@
             <div class="row">
 
                 <div class="col-6 col-md-3"> <!-- Imagen Argentina Programa -->
-                    <img src="../../../assets/img/argentinaprograma-logo.png" alt="" height="70em" class="ratio1x1 mx-auto d-block rounded-circle">
+                    <app-imagen-ap></app-imagen-ap>
                 </div>
 
                 <div class="col mx-auto d-none d-md-flex flex-column justify-content-center align-items-start"> <!-- Título Argentina Programa -->
-                    
-                    <div class="row">
-                        <p class="nav-p">Argentina Programa #YoProgramo</p>
-                    </div>
-
-                    <div class="row">
-                        <p class="nav-p">Gabriel R. Gayol</p>
-                    </div>
+                    <app-nombre></app-nombre>
                 </div>
             </div>
         </div>
@@ -33,15 +26,16 @@
                 <!-- Redes sociales -->
 
                 <div class="col-1 mx-auto">
-                    <img src="../../../assets/img/github.svg" alt="Github logo" height="30em" class="mx-auto d-block img-nav">
+                    <app-redes-sociales src="../../../assets/img/github.svg" alt="Github logo"></app-redes-sociales>                    
+                </div>
+                <div class="col-1 mx-auto">
+                    <app-redes-sociales src="../../../assets/img/instagram.svg" alt="Github logo"></app-redes-sociales>
                 </div>
 
-                <div class="col-1 mx-auto">
-                    <img src="../../../assets/img/instagram.svg" alt="Github logo" height="30em" class="mx-auto d-block img-nav">
-                </div>
+                
 
                 <div class="col-3">  <!-- Inicio de sesión -->
-                    <button class="btn btn-outline-light">Iniciar Sesión</button>
+                    <app-boton-inicio-sesion></app-boton-inicio-sesion>
                 </div>
             </div>
         </div>

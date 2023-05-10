@@ -1,0 +1,13 @@
+.acercade-nombre{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.acercade-titulo{
+    color: #000;
+}
+
+.acercade-foto{
+    height: 10em;
+    width: 10em;
+}

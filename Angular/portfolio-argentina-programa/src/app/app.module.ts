@@ -12,6 +12,15 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ImagenAPComponent } from './components/nav/components/imagen-ap/imagen-ap.component';
+import { NombreComponent } from './components/nav/components/nombre/nombre.component';
+import { RedesSocialesComponent } from './components/nav/components/redes-sociales/redes-sociales.component';
+import { BotonInicioSesionComponent } from './components/nav/components/boton-inicio-sesion/boton-inicio-sesion.component';
+import { FotoNombreTituloComponent } from './components/acerca-de/components/foto-nombre-titulo/foto-nombre-titulo.component';
+import { AcercadeTextosComponent } from './components/acerca-de/components/acercade-textos/acercade-textos.component';
+import { EducacionBloqueComponent } from './components/educacion/components/educacion-bloque/educacion-bloque.component';
+import { HabilidadDuraComponent } from './components/habilidades/components/habilidad-dura/habilidad-dura.component';
+import { HabilidadBlandaComponent } from './components/habilidades/components/habilidad-blanda/habilidad-blanda.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +33,15 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     HabilidadesComponent,
     ProyectosComponent,
     FooterComponent,
+    ImagenAPComponent,
+    NombreComponent,
+    RedesSocialesComponent,
+    BotonInicioSesionComponent,
+    FotoNombreTituloComponent,
+    AcercadeTextosComponent,
+    EducacionBloqueComponent,
+    HabilidadDuraComponent,
+    HabilidadBlandaComponent,
   ],
   imports: [
     BrowserModule,

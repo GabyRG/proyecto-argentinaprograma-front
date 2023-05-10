@@ -1,0 +1,22 @@
+<div class="col-md-6 col-lg-4 pb-5 d-flex flex-column justify-content-center align-items-center">
+    <div class="porcentajes" style="--porcentaje: {{porcentaje}}; --color: {{color}}">
+        <circle-progress
+        [percent]="{{porcentaje}}"
+        [radius]="70"
+        [showSubtitle]="false"
+        [outerStrokeWidth]="20"
+        [innerStrokeWidth]="20"
+        [space]="-20"
+        [outerStrokeColor]="'{{color}}'"
+        [innerStrokeColor]="'#000'"
+        [outerStrokeLinecap]="'butt'"
+        [animation]="true"
+        [animationDuration]="1200"
+        [titleFontSize]="'30'"
+        [unitsFontSize]="'20'"
+        [titleColor]="'#000'"
+        [unitsColor]="'#000'"
+      ></circle-progress>                
+    </div>
+    <h5 class="pt-3 habilidades-titulo">{{nombre}}</h5>
+</div>
