@@ -21,6 +21,8 @@ import { AcercadeTextosComponent } from './components/acerca-de/components/acerc
 import { EducacionBloqueComponent } from './components/educacion/components/educacion-bloque/educacion-bloque.component';
 import { HabilidadDuraComponent } from './components/habilidades/components/habilidad-dura/habilidad-dura.component';
 import { HabilidadBlandaComponent } from './components/habilidades/components/habilidad-blanda/habilidad-blanda.component';
+import { ProyectoComponent } from './components/proyectos/components/proyecto/proyecto.component';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -42,11 +44,13 @@ import { HabilidadBlandaComponent } from './components/habilidades/components/ha
     EducacionBloqueComponent,
     HabilidadDuraComponent,
     HabilidadBlandaComponent,
+    ProyectoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
