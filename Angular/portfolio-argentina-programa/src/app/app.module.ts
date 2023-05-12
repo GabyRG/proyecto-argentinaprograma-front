@@ -23,6 +23,8 @@ import { HabilidadDuraComponent } from './components/habilidades/components/habi
 import { HabilidadBlandaComponent } from './components/habilidades/components/habilidad-blanda/habilidad-blanda.component';
 import { ProyectoComponent } from './components/proyectos/components/proyecto/proyecto.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     HabilidadDuraComponent,
     HabilidadBlandaComponent,
     ProyectoComponent,
+    HomeComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
